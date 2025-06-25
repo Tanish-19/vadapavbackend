@@ -11,6 +11,10 @@ app.get('/home', (req, res) => {
   res.send('Hello world!!');
 });
 
+app.get('/about', (req, res) => {
+  res.send('Hello bhai!!');
+});
+
 app.listen(port, () => {
   // ✅ Use backticks, not single quotes
   console.log(`Example app listening on port ${port}`);
